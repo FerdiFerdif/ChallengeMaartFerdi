@@ -1,0 +1,46 @@
+MYSQL database voor challenge Ferdi van den Brom klas 8A 3/26/2019 en 3/27/2019
+
+Database sketch
+
+inloggen met --port=8889 -uroot -proot
+
+ingesteld op de MAMP MYSQL database server
+
+[Dit was moeilijker dan ik dacht, POEF. effe aan de HTML and CSS kant van de opdracht werken,
+because my brain is TIRED.]
+
+yay :)
+
+---DATABASE DESIGN---
+
+create database SqribaVragenlijst;
+
+use SqribaVragenlijst;
+
+create table vraag(vraag_ID INT, vraagtekst varchar(150));
+
+create table respons(respons_ID INT,vraag_ID INT, respondent_ID INT,
+antwoord VARCHAR(100),tijdstempel VARCHAR(30));
+
+create table respondent(respondent_ID INT,geslacht VARCHAR(1), leeftijd INT,
+email VARCHAR(50));
+
+
+---VRAGEN VOOR DE ENQUETE---   [inserten in table vraag]
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(1,'Kunt u aangeven hoe belangrijk u handschriftonderwijs vindt in het huidige digitale tijdperk?');
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(2,'Kunt u een inschatting geven over de kwaliteit van uw handschrift');
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(3,'Zou u er voor openstaan om uw handschrift te verbeteren?');
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(4,'Bent u bekend met de voordelen van handmatig schrijven?');
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(5,'Wat is uw voorkeur over het type handschrift, verbonden schrift?');
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(6,'Wanneer u schrijft, ligt het papier dan recht of schuin voor u?');
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(7,'Schrijft u links of rechts?');
+
+INSERT INTO vraag (vraag_ID, vraagtekst) VALUES(8,'Heeft u nog opmerkingen of vragen naar aanleiding van de vragenlijst?');
+

@@ -1,0 +1,193 @@
+html,body {
+    margin: 0;
+}
+
+* {
+    text-decoration: none;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav a img {
+    max-height: 20%;
+    max-width: 20%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+#xd {
+    background-image: url(" https://images.wallpaperscraft.com/image/blue_sea_ship_sky_248_1920x1080.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    padding-left: 15px;
+    border: solid lightskyblue 5px;
+
+}
+
+div.mainbackscreen {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 0px  ;
+    font-size: 30px;
+    background: rgba(31, 145, 203,0.7);
+    height: 750px;
+}
+
+div.textblock {
+    font-size: 40px;
+    margin: 0 auto;
+    max-width: 100%;
+    background: rgba(255,255,255,1);
+    width: 1000px;
+    height: 765px;
+}
+
+div.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1px;
+    color:cornflowerblue;
+    text-shadow: 2px 2px 5px rgba(35,145,206,0.6);
+}
+
+div.smalltext {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color:cornflowerblue;
+    text-shadow: 2px 2px 5px rgba(36,122,170,0.2);
+    padding-bottom: 5px;
+}
+
+div.helekleinetext {
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+div.smalltext2 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color:cornflowerblue;
+    text-shadow: 2px 2px 5px rgba(36,122,170,0.2);
+    padding-bottom: 5px;
+}
+
+div.helekleinetext2 {
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px; }
+
+div.smalltext3 {
+    padding-top: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.vraag {
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+input {
+    width: 500px;
+}
+
+div.vraag form {
+    padding-top: 40px;
+    padding-bottom: 335px;
+
+}
+
+#eeek {
+    font-size: 25px;
+}
+
+div.textblock img{
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 900px) {
+    #xd img {
+        min-width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.smalltext3 img {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #hele,#hele2 {
+        font-size: 18px;
+
+    }
+
+    div.vraag {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+    div.helekleinetext2 {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+    div.smalltext3 img {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    div.vraag {
+        font-size: 16px;
+
+    }
+
+    div.vraag {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+
+
+    div.smalltext3 img {
+        width: 350px;
+    }
+
+    #smalltext {
+        font-size: 20px;
+    }
+
+    #smalltext2 {
+        font-size: 20px;
+    }
+}
